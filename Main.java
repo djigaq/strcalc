@@ -16,7 +16,8 @@ public class Main {
 
 
     public static void main(String[] args) throws Exception {
-        String u = scan.nextLine();
+        String q = scan.nextLine();
+        String u= q.replace("\"", "");
         char[] pr = new char[21];
         for (int i = 0; i < u.length(); i++) {
             pr[i] = u.charAt(i);
